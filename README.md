@@ -67,7 +67,8 @@ I started this in the [issue #336](https://buttondown.email/cassidoo/archive/in-
 - [333 - happy-new-year](src/333-happy-new-year/README.md)
 - [334 - letters](src/334-letters/README.md)
 - [335 - flip](src/335-flip/README.md)
-- [336 - binary tree](src/336-binary-tree/README.md)
+- [336 - binarystree](src/336-binary-tree/README.md)
+- [337 - days-between-dates](src/337-days-between-dates/README.md)
 
 </details>
 

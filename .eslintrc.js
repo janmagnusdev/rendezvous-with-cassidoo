@@ -11,6 +11,9 @@ const config = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  rules: {
+    "no-unused-vars": "warn",
+  },
   settings: {
     "import/resolver": {
       node: true,

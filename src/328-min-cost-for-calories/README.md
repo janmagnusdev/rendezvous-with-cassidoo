@@ -11,12 +11,9 @@ or exceed the daily calorie goal. If it's impossible to meet the goal, return -1
 ### Example
 
 ```js
-let calories = [200, 400, 600, 800]
-let prices = [50, 60, 80, 100]
-let dailyGoal = 1200
-
-> minCostForCalories(calories, prices, dailyGoal)
-> 160 // the 2nd and 4th items add up to 1200 calories for the minimum cost
+let calories = [200, 400, 600, 800];
+let prices = [50, 60, 80, 100];
+let dailyGoal = 1200 > minCostForCalories(calories, prices, dailyGoal) > 160; // the 2nd and 4th items add up to 1200 calories for the minimum cost
 ```
 
 ## Solution

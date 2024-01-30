@@ -79,7 +79,9 @@ const MIN_COST_FOR_CALORIES_TEST_CASES: MinCostForCaloriesTestCase[] = [
 describe("minCostForCalories", () => {
   test("should return the minimum cost to achieve or exceed the daily calorie goal", () => {
     MIN_COST_FOR_CALORIES_TEST_CASES.forEach(({ input, output }) => {
-      expect(minCostForCalories(input.calories, input.prices, input.dailyGoal)).toEqual(output);
+      expect(
+        minCostForCalories(input.calories, input.prices, input.dailyGoal)
+      ).toEqual(output);
     });
   });
 });

@@ -25,19 +25,22 @@ type ItemCombination = {
   cost: number;
 };
 
-export const getMinCostFromCombinations = (items: Item[], dailyGoal: number): number => {
+export const getMinCostFromCombinations = (
+  items: Item[],
+  dailyGoal: number
+): number => {
   let minimumCost = Infinity;
 
   const combine = (currentItems: Item[], remainingItems: Item[]) => {
     if (remainingItems.length === 0) {
       const currentCalorieSum = currentItems.reduce(
         (accumulator, item) => accumulator + item.calorie,
-        0,
+        0
       );
       if (currentCalorieSum >= dailyGoal) {
         const currentCost = currentItems.reduce(
           (accumulator, item) => accumulator + item.price,
-          0,
+          0
         );
         minimumCost = Math.min(minimumCost, currentCost);
       }
@@ -55,7 +58,7 @@ export const getMinCostFromCombinations = (items: Item[], dailyGoal: number): nu
 export const minCostForCalories = (
   calories: number[],
   prices: number[],
-  dailyGoal: number,
+  dailyGoal: number
 ): number => {
   if (calories.length !== prices.length) return -1;
 

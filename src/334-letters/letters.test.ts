@@ -39,7 +39,7 @@ const LETTERS_TEST_CASES: LettersTestCase[] = [
 describe("letters", () => {
   LETTERS_TEST_CASES.forEach(({ input, expected }) => {
     it(`returns ${expected} for ${input}`, () => {
-      expected.forEach(expectedString => {
+      expected.forEach((expectedString) => {
         expect(letters(input)).toContain(expectedString);
       });
     });

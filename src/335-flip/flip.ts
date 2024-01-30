@@ -20,4 +20,6 @@ let array = [
 
 export type Direction = "horizontal" | "vertical";
 export const flip = (array: number[][], direction: Direction): number[][] =>
-  direction === "horizontal" ? array.map(row => row.reverse()) : array.reverse();
+  direction === "horizontal"
+    ? array.map((row) => row.reverse())
+    : array.reverse();

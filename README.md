@@ -7,7 +7,7 @@ My answers to the Interview Questions of the [rendezvous with cassidoo](https://
 
 Each directory is related to a issue and has its own tests.
 
-I started this in the [issue #258](https://buttondown.email/cassidoo/archive/discovering-the-truth-about-ourselves-is-a/)!
+I started this in the [issue #336](https://buttondown.email/cassidoo/archive/in-our-leisure-we-reveal-what-kind-of-people-we/)! Older issue solutions are from [Muhammad Khan](https://github.com/MBM1607/rendezvous-with-cassidoo).
 
 ## Questions
 
@@ -67,6 +67,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [333 - happy-new-year](src/333-happy-new-year/README.md)
 - [334 - letters](src/334-letters/README.md)
 - [335 - flip](src/335-flip/README.md)
+- [336 - binary tree](src/336-binary-tree/README.md)
 
 </details>
 
@@ -76,4 +77,4 @@ Just `pnpm install` to install all dependencies and then `pnpm test` to run the 
 
 ## Credits
 
-Monorepo idea and base code blatantly stolen from [Miguel Rios](https://github.com/miguelriosoliveira)
+Monorepo idea and base code blatantly stolen from [Muhammad Khan](https://github.com/MBM1607/rendezvous-with-cassidoo)
